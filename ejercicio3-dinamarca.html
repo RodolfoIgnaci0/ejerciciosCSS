@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style>
+
+		.dimensiones{
+			position: relative;
+			height: 300px;
+			width: 400px;
+			background-color: white;
+		}
+
+		.cuadrado{
+			position: absolute;
+			background-color: red;
+			height: 100px;
+			width: 100px;
+		}
+
+		.rectangulo{
+			position: absolute;
+			background-color: red;
+			height: 100px;
+			width: 200px;
+		}
+
+		.arriba-izquierda{
+			top:0px;
+			left: 0px;
+		}
+
+		.abajo-izquierda{
+			bottom: 0px;
+			left: 0px;
+		}
+
+		.arriba-derecha{
+			top:0px;
+			right: 0px;
+		}
+
+		.abajo-derecha{
+			bottom: 0px;
+			right: 0px;
+		}
+	</style>
+</head>
+<body>
+	<div class="dimensiones">
+		<div class="rectangulo arriba-derecha"></div>
+		<div class="cuadrado arriba-izquierda"></div>
+		<div class="rectangulo abajo-derecha"></div>
+		<div class="cuadrado abajo-izquierda"></div>
+	</div>
+</body>
+</html>
